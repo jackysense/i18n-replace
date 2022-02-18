@@ -45,7 +45,11 @@ module.exports = {
 
 这些配置项都不是必要的，如果你需要翻译功能，一般只需要填入 appid、key 并且将 translation 设为 true。
 
-设置完配置项后，执行 `rep`（这是一个全局命令），i18n-replace 就会对你的入口目录进行递归替换、翻译。
+设计配置项后，执行:
+```
+rep
+```
+然后 i18n-replace 就会对你的入口目录进行递归替换、翻译。
 
 i18n-replace 能识别以下中文：
 ```js
